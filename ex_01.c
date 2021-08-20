@@ -5,7 +5,6 @@
 void main(){
     /*Faça um Programa que peça as 4 notas bimestrais e mostre a média.*/
 
-    int j;
     float nota, media;
     
     for(int i = 1; i <= 4; i++){
