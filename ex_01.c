@@ -5,5 +5,15 @@
 void main(){
     /*Faça um Programa que peça as 4 notas bimestrais e mostre a média.*/
 
-    printf("\nDigite\n");
+    int j;
+    float nota, media;
+    
+    for(int i = 1; i <= 4; i++){
+        printf("\nDigite a nota %d: ",i);
+        scanf("%f",&nota);
+        media = media + nota;
+    }
+    media = media / 4;
+
+    printf("\nA media das 4 notas eh %.2f.\n", media);
 }
