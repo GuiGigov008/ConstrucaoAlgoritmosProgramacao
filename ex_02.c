@@ -10,7 +10,7 @@ void main(){
     int horas;
     printf("\nQuanto voce ganha por hora? ");
     scanf("%f",&valor);
-    printf("\nQuantas hora trabalha por semana? ");
+    printf("\nQuantas horas voce trabalha por semana? ");
     scanf("%d",&horas);
 
     salario = (horas * valor) * 4;

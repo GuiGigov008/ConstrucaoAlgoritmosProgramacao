@@ -12,15 +12,15 @@ void main(){
     
     float pesoTotal, excessoValor, excesso = 50, multa = 4;
     //ENTRADA de dados
-    printf("Digite o peso dos peixes: ");
+    printf("\nDigite o peso dos peixes: ");
     scanf("%f",&pesoTotal);
     //PROCESSAmento
     if(pesoTotal > excesso){
         printf("\nEXCESSO DE PESO!\n");
         excessoValor = (pesoTotal - excesso) * multa;
         //SAIDA de dados
-        printf("\nO peso digitado foi %.3f\n",pesoTotal);
-        printf("\nO valor excedente foi de R$ %.2f\n",excessoValor);
+        printf("\nO peso digitado foi %.3f kg.\n",pesoTotal);
+        printf("\nO valor excedente foi de R$ %.2f .\n",excessoValor);
     }else{
         //SAIDA 2
         printf("\nNao teve valor excedente.\n");
