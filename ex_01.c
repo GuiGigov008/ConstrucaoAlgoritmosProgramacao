@@ -3,7 +3,6 @@
 #include <locale.h>
 
 void main(){
-    setlocale(LC_ALL,"Portuguese");
     /*Faça um Programa que peça as 4 notas bimestrais e mostre a média.*/
 
     float nota, media = 0.0;
